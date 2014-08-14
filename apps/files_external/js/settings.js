@@ -413,6 +413,10 @@ $(document).ready(function() {
 		OC.MountConfig.saveStorage($(this).parent());
 	});
 
+	$('#externalStorage').on('click', '.status>span', function() {
+		OC.MountConfig.saveStorage($(this).parent().parent());
+	});
+
 	$('#sslCertificate').on('click', 'td.remove>img', function() {
 		var $tr = $(this).parent().parent();
 		var row = this.parentNode.parentNode;
