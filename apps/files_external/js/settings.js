@@ -19,15 +19,20 @@ function getSelection($row) {
 	return values;
 }
 
+function highlightBorder(element, highlight) {
+	if (highlight) {
+		$(element).addClass('warning-input');
+		return true;
+	} else {
+		$(element).removeClass('warning-input');
+		return false;
+	}
+}
+
 function highlightInput(input) {
 	if ($(input).attr('type') === 'text' || $(input).attr('type') === 'password') {
-		if ($(input).val() === '' && !$(input).hasClass('optional')) {
-			$(input).addClass('warning-input');
-			return true;
-		} else {
-			$(input).removeClass('warning-input');
-			return false;
-		}
+		return highlightBorder(input,
+			($(input).val() === '' && !$(input).hasClass('optional')));
 	}
 }
 
