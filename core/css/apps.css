@@ -239,16 +239,16 @@
     }
 
 #app-navigation .app-navigation-entry-utils ul,
-#app-navigation .app-navigation-entry-options ul {
+#app-navigation .app-navigation-entry-menu ul {
     list-style-type: none;
 }
 
-#app-navigation .app-navigation-entry-options.app-navigation-entry-options-open {
+#app-navigation .app-navigation-entry-menu.app-navigation-entry-menu-open {
     display: block;
 }
 
 
-#app-navigation .app-navigation-entry-options {
+#app-navigation .app-navigation-entry-menu {
     display: none;
     position: absolute;
     background-color: #eee;
@@ -266,8 +266,8 @@
 }
 
 /* miraculous border arrow stuff */
-#app-navigation .app-navigation-entry-options:after,
-#app-navigation .app-navigation-entry-options:before {
+#app-navigation .app-navigation-entry-menu:after,
+#app-navigation .app-navigation-entry-menu:before {
     bottom: 100%;
     right: 5px; /* change this to adjust the arrow position */
     border: solid transparent;
@@ -278,13 +278,13 @@
     pointer-events: none;
 }
 
-#app-navigation .app-navigation-entry-options:after {
+#app-navigation .app-navigation-entry-menu:after {
     border-color: rgba(238, 238, 238, 0);
     border-bottom-color: #eee;
     border-width: 10px;
     margin-left: -10px;
 }
-#app-navigation .app-navigation-entry-options:before {
+#app-navigation .app-navigation-entry-menu:before {
     border-color: rgba(187, 187, 187, 0);
     border-bottom-color: #bbb;
     border-width: 11px;
@@ -292,16 +292,16 @@
 }
 
 /* list of options for an entry */
-#app-navigation .app-navigation-entry-options ul {
+#app-navigation .app-navigation-entry-menu ul {
     display: block !important;
 }
 
-#app-navigation .app-navigation-entry-options li {
+#app-navigation .app-navigation-entry-menu li {
     float: left;
     width: 38px !important;
 }
 
-#app-navigation .app-navigation-entry-options li button {
+#app-navigation .app-navigation-entry-menu li button {
     float: right;
     width: 36px !important;
     height: 36px;
@@ -311,8 +311,8 @@
     background-color: transparent;
 }
 
-#app-navigation .app-navigation-entry-options li button:hover,
-#app-navigation .app-navigation-entry-options li button:focus {
+#app-navigation .app-navigation-entry-menu li button:hover,
+#app-navigation .app-navigation-entry-menu li button:focus {
     opacity: 1;
     background-color: transparent;
 }
