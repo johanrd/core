@@ -138,7 +138,7 @@
 }
 
 
-/* counter and actions */
+/* counter and actions, legacy code */
 #app-navigation .utils {
 	position: absolute;
 	padding: 7px 7px 0 0;
@@ -175,7 +175,6 @@
 /**
  * App navigation utils, buttons and counters for drop down menu
  */
-
 #app-navigation .app-navigation-entry-loading a {
 	background-image: url('../img/loading.gif') !important;
 }
@@ -254,8 +253,9 @@
     background-color: #eee;
     color: #333;
     border-radius: 3px;
+    border-top-right-radius: 0px;
     z-index: 110;
-    margin: -5px 10px 5px 10px;
+    margin: -5px 14px 5px 10px;
     right: 0;
     border: 1px solid #bbb;
     -webkit-filter: drop-shadow(0 0 5px rgba(150, 150, 150, 0.75));
@@ -269,7 +269,7 @@
 #app-navigation .app-navigation-entry-menu:after,
 #app-navigation .app-navigation-entry-menu:before {
     bottom: 100%;
-    right: 5px; /* change this to adjust the arrow position */
+    right: 0; /* change this to adjust the arrow position */
     border: solid transparent;
     content: " ";
     height: 0;
@@ -338,6 +338,7 @@
 	position: fixed;
 	width: 250px; /* change to 100% when layout positions are absolute */
 	bottom: 0;
+	z-index: 140;
 }
 #app-settings.opened #app-settings-content {
 	display: block;
