@@ -175,10 +175,6 @@
 /**
  * App navigation utils, buttons and counters for drop down menu
  */
-#app-navigation .app-navigation-entry-loading a {
-	background-image: url('../img/loading.gif') !important;
-}
-
 #app-navigation .app-navigation-entry-utils {
     position: absolute;
     top: 0;
