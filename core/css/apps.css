@@ -240,6 +240,7 @@
 }
 
 #app-navigation .app-navigation-entry-menu {
+	display: none;
     position: absolute;
     background-color: #eee;
     color: #333;
@@ -324,6 +325,7 @@
 	margin-right: 0;
 	height: 38px;
 	float: left;
+	border: 1px solid rgba(190,190,190,.9);
 }
 
 #app-navigation .app-navigation-entry-edit button {
