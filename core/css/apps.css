@@ -212,7 +212,7 @@
     }
     #app-navigation .app-navigation-entry-utils-menu-button button {
         border: 0;
-        opacity: .7;
+        opacity: .5;
         background-color: transparent;
         background-repeat: no-repeat;
         background-position: center;
@@ -305,7 +305,7 @@
     height: 36px;
     line-height: 36px;
     border: 0;
-    opacity: .7;
+    opacity: .5;
     background-color: transparent;
 }
 
