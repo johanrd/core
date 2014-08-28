@@ -357,6 +357,11 @@
 	overflow-y: auto;
 }
 
+#app-content-wrapper {
+	min-width: 100%;
+	min-height: 100%;
+}
+
 
 
 /* APP-SETTINGS ---------------------------------------------------------------*/
