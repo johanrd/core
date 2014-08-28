@@ -180,6 +180,7 @@
     top: 0;
     right: 0;
     bottom: 0;
+    z-index: 105;
 }
 
     #app-navigation .app-navigation-entry-utils ul {
@@ -245,6 +246,7 @@
     color: #333;
     border-radius: 3px;
     border-top-right-radius: 0px;
+    z-index: 110;
     margin: -5px 14px 5px 10px;
     right: 0;
     border: 1px solid #bbb;
@@ -360,6 +362,7 @@
 	position: fixed;
 	width: 250px; /* change to 100% when layout positions are absolute */
 	bottom: 0;
+	z-index: 140;
 }
 #app-settings.opened #app-settings-content {
 	display: block;
