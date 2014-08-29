@@ -7,7 +7,7 @@ $TRANSLATIONS = array(
 "Admin" => "Administrer",
 "Unknown filetype" => "Ukjend filtype",
 "Invalid image" => "Ugyldig bilete",
-"web services under your control" => "Vev tjenester under din kontroll",
+"web services under your control" => "Vevtjenester under din kontroll",
 "Authentication error" => "Feil i autentisering",
 "Your web server is not yet properly setup to allow files synchronization because the WebDAV interface seems to be broken." => "Tenaren din er ikkje enno rett innstilt til å tilby filsynkronisering sidan WebDAV-grensesnittet ser ut til å vera øydelagt.",
 "Please double check the <a href='%s'>installation guides</a>." => "Ver venleg og dobbeltsjekk <a href='%s'>installasjonsrettleiinga</a>.",
